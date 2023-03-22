@@ -1,0 +1,58 @@
+.ContactList {
+  display: grid;
+  height: 400px;
+  overflow: auto;
+  margin: 0px 0px;
+  padding: 0 10px;
+  background-color: #0000005f;
+}
+
+.ContactItem {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 10px;
+  border-bottom: 1px solid #ffffff4a;
+}
+
+.DeleteButton {
+  position: absolute;
+  right: 15px;
+  display: flex;
+  width: 100px;
+  height: 35px;
+  padding: 10px;
+  border: none;
+  font-size: 13px;
+  background-color: #003c4dd9;
+  border-radius: 0.6em;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
+  color: #f0f8ff6d;
+}
+
+.DeleteButton:hover {
+  scale: 1.07;
+  transition: 0.7s;
+  font-size: 10px;
+  background-color: #c303033c;
+  color: #f0f8ffab;
+}
+
+.ContactItem p:nth-child(1) {
+  color: #f0f8ffab;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+}
+
+.ContactItem p:nth-child(2) {
+  color: #00c8ffa5;
+  font-weight: 300;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}

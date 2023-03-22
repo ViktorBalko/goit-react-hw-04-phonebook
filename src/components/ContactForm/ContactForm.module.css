@@ -1,0 +1,47 @@
+.ContactForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0px 15px;
+  background-color: #151516b2;
+}
+.ContactFormLabel {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ContactFormInput {
+  width: 250px;
+  height: 50px;
+  margin: 15px 15px;
+  padding: 10px;
+  border: none;
+  background-color: #4f505069;
+  border-radius: 0.6em;
+  color: #d3d0d077;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.AddButton {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: #02566d65;
+  border-radius: 0.6em;
+  margin: 15px 0px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
+  font-size: 15px;
+  color: #f0f8ff6d;
+}
+
+.AddButton:hover {
+  scale: 1.07;
+  transition: 0.7s;
+  font-size: 12px;
+  background-color: #029c1720;
+  color: #f0f8ffab;
+}

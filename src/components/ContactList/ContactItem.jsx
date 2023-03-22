@@ -7,9 +7,8 @@ function ContactItem({ contact, onDeleteContact }) {
 
   return (
     <li className={styles.ContactItem}>
-      <p>
-        {name}: {number}
-      </p>
+      <p>{name}</p>
+      <p>{number}</p>
       <DeleteButton onDeleteContact={onDeleteContact} contactId={contact.id} />
     </li>
   );

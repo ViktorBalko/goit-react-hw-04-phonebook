@@ -25,13 +25,13 @@ const ContactForm = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className={styles.ContactForm}>
-      <label>
+      <label className={styles.ContactFormLabel}>
         <input
           type="text"
           name="name"
           value={name}
           className={styles.ContactFormInput}
-          //  autoComplete="off"
+          autoComplete="on"
           placeholder="Enter name"
           onChange={handleChange}
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
@@ -45,7 +45,7 @@ const ContactForm = ({ onSubmit }) => {
           name="number"
           value={number}
           className={styles.ContactFormInput}
-          //  autoComplete="off"
+          autoComplete="on"
           placeholder="Enter number"
           onChange={handleChange}
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"

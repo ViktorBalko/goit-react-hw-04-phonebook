@@ -4,7 +4,7 @@ import styles from './ContactFilter.module.css';
 
 const ContactFilter = ({ value, onChange }) => {
   return (
-    <label>
+    <label className={styles.ContactFilterLabel}>
       <input
         type="text"
         value={value}
