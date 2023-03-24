@@ -36,14 +36,14 @@ y code {
   display: flex;
   flex-direction: column;
   width: 650px;
-  height: 600px;
+  height: 700px;
   margin: 35px auto;
   border-radius: 1.5em;
   overflow: hidden;
   border-radius: 1.5em;
   border: none;
   background: #0000007a;
-  box-shadow: -5px 5px 99px 40px #052d4e3b;
+  box-shadow: -5px 5px 99px 40px #2d163534;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid #89898955;

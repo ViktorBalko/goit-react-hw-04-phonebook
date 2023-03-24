@@ -6,10 +6,13 @@ import ContactFilter from './ContactFilter/ContactFilter';
 
 export function App() {
   const [contacts, setContacts] = useState([
-    { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
-    { id: 'id-2', name: 'Hermione Kline', number: '443-89-12' },
-    { id: 'id-3', name: 'Eden Clements', number: '645-17-79' },
-    { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
+    { id: 'id-1', name: 'Don Worryngton', number: '559-22-55' },
+    { id: 'id-2', name: 'C.C. Capwell', number: '113-19-12' },
+    { id: 'id-3', name: 'Yokkalo Mikkalo', number: '945-97-79' },
+    { id: 'id-4', name: 'Dominic Toretto', number: '459-12-56' },
+    { id: 'id-5', name: 'JSON Statham', number: '443-89-12' },
+    { id: 'id-6', name: 'Roger Abbit', number: '645-17-79' },
+    { id: 'id-7', name: 'Heather Locklear', number: '227-91-26' },
   ]);
   const [filter, setFilter] = useState('');
 

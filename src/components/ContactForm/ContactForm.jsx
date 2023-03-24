@@ -31,7 +31,7 @@ const ContactForm = ({ onSubmit }) => {
           name="name"
           value={name}
           className={styles.ContactFormInput}
-          autoComplete="on"
+          autoComplete="off"
           placeholder="enter name"
           onChange={handleChange}
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
@@ -45,7 +45,7 @@ const ContactForm = ({ onSubmit }) => {
           name="number"
           value={number}
           className={styles.ContactFormInput}
-          autoComplete="on"
+          autoComplete="off"
           placeholder="enter number"
           onChange={handleChange}
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
