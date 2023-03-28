@@ -8,7 +8,7 @@ function DeleteButton({ onDeleteContact, contactId }) {
       className={styles.DeleteButton}
       onClick={() => onDeleteContact(contactId)}
     >
-      delete
+      <span className={styles.DeleteButtonTitle}>delete</span>
     </button>
   );
 }

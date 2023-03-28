@@ -71,11 +71,11 @@ export function App() {
       <h1 className="HomeworkTitle">React HW4 ~ Phonebook</h1>
       <div className="AppBox">
         <ContactForm onSubmit={handleAddContact} />
-        <ContactFilter filter={filter} onChange={handleFilterChange} />
         <ContactList
           contacts={filteredContacts}
           onDeleteContact={handleDeleteContact}
         />
+        <ContactFilter filter={filter} onChange={handleFilterChange} />
       </div>
     </>
   );

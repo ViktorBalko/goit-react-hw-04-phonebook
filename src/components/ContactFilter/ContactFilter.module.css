@@ -1,22 +1,31 @@
 .ContactFilterLabel {
   display: flex;
-  background-color: #001e383e;
-  height: 100px;
+  height: 60px;
   align-items: center;
   justify-content: center;
+  background: #002c5ba4;
+  background: linear-gradient(180deg, #001627, #00253f, #002e4f);
 }
 .ContactFilterInput {
-  display: inline-block;
-  width: 300px;
+  width: 250px;
   height: 50px;
+  margin: 0px 15px;
   padding: 20px;
-  border: 1px solid #f5f5f51a;
-  background-color: #5151511c;
-  border-radius: 0.6em;
+  border: none;
+  width: 200px;
+  height: 25px;
+  margin: 0px 11px;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #6e6e6e;
+  color: #8f8f8f;
+  font-size: 20px;
+  background-color: transparent;
+  font-style: italic;
 }
 
 .ContactFilterInput::placeholder {
-  font-size: 13px;
-  font-style: italic;
-  color: #d0d2d3b7;
+  font-size: 14px;
+  font-weight: 400;
+  color: #a6a6a7;
 }
